@@ -1,8 +1,22 @@
 export const navigation = [
-  { name: "Home", path: "/" },
-  { name: "Projects", path: "/projects" },
-  { name: "Research", path: "/research" },
-  { name: "Journey", path: "/journey" },
-  { name: "Resume", path: "/resume" },
-  { name: "Contact", path: "/contact" },
+  {
+    label: "About",
+    action: "about"
+  },
+  {
+    label: "Projects",
+    to: "/projects",
+  },
+  {
+    label: "Research",
+    to: "/research",
+  },
+  {
+    label: "Journey",
+    to: "/journey",
+  },
+  {
+    label: "Contact",
+    to: "/contact",
+  },
 ];
