@@ -1,9 +1,14 @@
 import React from 'react'
+import Hero from '../../components/home/Hero/Hero'
+import About from '../../components/home/About/About'
+import Skills from '../../components/home/Skills/Skills'
 
 function Home() {
   return (
     <div>
-      <h1>Home</h1>
+      <Hero/>
+      <About/>
+      <Skills/>
     </div>
   )
 }
