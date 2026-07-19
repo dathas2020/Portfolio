@@ -1,11 +1,18 @@
-import React from 'react'
+import HeroContent from "./HeroContent";
+import HeroButtons from "./HeroButtons";
+import ScrollIndicator from "./ScrollIndicator";
 
-function Hero() {
+export default function Hero() {
   return (
-    <div>
-      <h1>Hero</h1>
-    </div>
-  )
-}
+    <section className="relative min-h-[calc(100vh-96px)] flex items-center">
+      <div className="mx-auto w-full max-w-4xl text-center">
+        <HeroContent />
+        <HeroButtons />
 
-export default Hero
+        <div className="mt-12">
+          <ScrollIndicator />
+        </div>
+      </div>
+    </section>
+  );
+}
